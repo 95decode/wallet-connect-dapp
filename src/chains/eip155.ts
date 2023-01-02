@@ -29,23 +29,6 @@ export const EIP155Metadata: NamespaceMetadata = {
     logo: BLOCKCHAIN_LOGO_BASE_URL + "eip155:5.png",
     rgb: EIP155Colors.goerli,
   },
-  "10": {
-    name: "Optimism",
-    logo: BLOCKCHAIN_LOGO_BASE_URL + "eip155:10.png",
-    rgb: EIP155Colors.optimism,
-  },
-  "42": {
-    logo: BLOCKCHAIN_LOGO_BASE_URL + "eip155:42.png",
-    rgb: EIP155Colors.ethereum,
-  },
-  "69": {
-    logo: BLOCKCHAIN_LOGO_BASE_URL + "eip155:69.png",
-    rgb: EIP155Colors.optimism,
-  },
-  "100": {
-    logo: BLOCKCHAIN_LOGO_BASE_URL + "eip155:100.png",
-    rgb: EIP155Colors.xdai,
-  },
   "137": {
     name: "Polygon",
     logo: BLOCKCHAIN_LOGO_BASE_URL + "eip155:137.png",
@@ -54,24 +37,6 @@ export const EIP155Metadata: NamespaceMetadata = {
   "80001": {
     logo: BLOCKCHAIN_LOGO_BASE_URL + "eip155:80001.png",
     rgb: EIP155Colors.polygon,
-  },
-  "42161": {
-    name: "Arbitrum",
-    logo: BLOCKCHAIN_LOGO_BASE_URL + "eip155:42161.png",
-    rgb: EIP155Colors.arbitrum,
-  },
-  "42220": {
-    name: "Celo",
-    logo: BLOCKCHAIN_LOGO_BASE_URL + "eip155:42220.png",
-    rgb: EIP155Colors.celo,
-  },
-  "44787": {
-    logo: BLOCKCHAIN_LOGO_BASE_URL + "eip155:44787.png",
-    rgb: EIP155Colors.celo,
-  },
-  "421611": {
-    logo: BLOCKCHAIN_LOGO_BASE_URL + "eip155:421611.png",
-    rgb: EIP155Colors.arbitrum,
   },
 };
 export function getChainMetadata(chainId: string): ChainMetadata {

@@ -9,7 +9,6 @@ import eth from "../assets/eth.svg";
 import erc20 from "../assets/erc20.svg";
 import { getChainMetadata } from "../chains";
 
-const xdai = getChainMetadata("eip155:100").logo;
 const matic = getChainMetadata("eip155:137").logo;
 
 const SAsset = styled.div`
@@ -44,8 +43,6 @@ function getAssetIcon(asset: AssetData): JSX.Element {
   switch (asset.symbol.toLowerCase()) {
     case "eth":
       return <Icon src={eth} />;
-    case "xdai":
-      return <Icon src={xdai} />;
     case "matic":
       return <Icon src={matic} />;
     default:
